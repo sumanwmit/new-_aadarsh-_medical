@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.bg-geometric-accent {
+  background-color: #0A8F6A;
+}
+
+.text-geometric-accent {
+  color: #0A8F6A;
+}
+
+.border-geometric-accent {
+  border-color: #0A8F6A;
+}
+
+.shadow-geometric {
+  box-shadow: 0 10px 25px -5px rgba(10, 143, 106, 0.25);
+}
