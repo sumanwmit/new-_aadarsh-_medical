@@ -282,20 +282,13 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Bottom Copyright & Developed By WMIT */}
+        {/* Bottom Copyright & WMIT */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-400">
           <p>© {currentYear} {BUSINESS_INFO.name}. All rights reserved.</p>
           <p className="flex items-center space-x-1">
-            <span>Developed by</span>
-            <a
-              href="https://main.webmakerit.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-bold text-emerald-400 hover:text-emerald-300 hover:underline inline-flex items-center"
-            >
-              WMIT
-              <ExternalLink className="w-3 h-3 ml-1" />
-            </a>
+            <span></span>
+           <a href="#" className="wmit-popup-trigger hover:text-white underline transition-colors" target="_blank" rel="noopener noreferrer">Developed by WMIT</a>
+
           </p>
         </div>
       </div>
